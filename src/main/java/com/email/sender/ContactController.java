@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/contact")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://my-portfolio-five-eosin-43.vercel.app/")
 public class ContactController {
 
     private final EmailService emailService;
